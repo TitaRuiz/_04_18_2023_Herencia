@@ -1,8 +1,10 @@
 package com.hedima.modelo;
 
+import com.hedima.modelo.Producto;
+
 import java.time.LocalDate;
 
-public class ProductoPerecedero extends Producto{
+public class ProductoPerecedero extends Producto {
     private LocalDate fCaducidad;
 
     @Override
